@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MySliderStyle" parent="Widget.MaterialComponents.Slider">
+        <item name="trackColorActive">#F8F8F8</item>
+        <item name="trackColorInactive">#F8F8F8</item>
+        <item name="trackHeight">1dp</item>
+        <item name="thumbColor">@color/color_primary</item>
+    </style>
+
+    <style name="style_description">
+        <![CDATA[   <style name="style_description">         <item name="textAllCaps">false</item>         <item name="android:textColor">@color/color_description_text</item>         <item name="android:textSize">@dimen/bigger_text_size</item>         <item name="android:fontFamily">@font/gilroy_medium</item>     </style>]]></style>
+
+    <style name="Theme_Dialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowMinWidthMajor">90%</item>
+        <item name="android:windowMinWidthMinor">90%</item>
+        <!--        <item name="android:background">#ffffff</item>-->
+    </style>
+
+
+    <style name="Theme_Dialog_Allow_Permission" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowMinWidthMajor">90%</item>
+        <item name="android:windowMinWidthMinor">90%</item>
+        <!--        <item name="android:background">#ffffff</item>-->
+    </style>
+</resources>

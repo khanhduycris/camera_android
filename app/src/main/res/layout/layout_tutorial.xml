@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mobiai.app.ui.TutorialView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/tutorial_view"
+    android:layout_height="match_parent">
+    <include layout="@layout/fragment_camera_view_tutorial1"/>
+    <include layout="@layout/fragment_camera_view_tutorial2"/>
+    <include layout="@layout/fragment_camera_view_tutorial3"/>
+    <include layout="@layout/fragment_camera_view_tutorial4"/>
+    <include layout="@layout/fragment_camera_view_tutorial5"/>
+
+
+</com.mobiai.app.ui.TutorialView>

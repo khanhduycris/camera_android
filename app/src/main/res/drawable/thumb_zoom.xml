@@ -1,0 +1,24 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="29dp"
+    android:height="29dp"
+    android:viewportWidth="29"
+    android:viewportHeight="29">
+  <path
+      android:pathData="M15,15m-14,0a14,14 0,1 1,28 0a14,14 0,1 1,-28 0"
+      android:fillColor="#ffffff"/>
+  <group>
+    <clip-path
+        android:pathData="M6,6h18v18h-18z"/>
+    <group>
+      <clip-path
+          android:pathData="M6,6h18v18h-18z"/>
+      <path
+          android:pathData="M12.9,14.775H16.65M14.775,16.65V12.9M22.5,22.5L21,21M14.625,21.75C15.561,21.75 16.487,21.566 17.352,21.208C18.216,20.85 19.001,20.325 19.663,19.663C20.325,19.001 20.85,18.216 21.208,17.352C21.566,16.487 21.75,15.561 21.75,14.625C21.75,13.689 21.566,12.763 21.208,11.898C20.85,11.034 20.325,10.248 19.663,9.587C19.001,8.925 18.216,8.4 17.352,8.042C16.487,7.684 15.561,7.5 14.625,7.5C12.735,7.5 10.923,8.251 9.587,9.587C8.251,10.923 7.5,12.735 7.5,14.625C7.5,16.515 8.251,18.327 9.587,19.663C10.923,20.999 12.735,21.75 14.625,21.75Z"
+          android:strokeLineJoin="round"
+          android:strokeWidth="1.5"
+          android:fillColor="#00000000"
+          android:strokeColor="#2076FF"
+          android:strokeLineCap="round"/>
+    </group>
+  </group>
+</vector>

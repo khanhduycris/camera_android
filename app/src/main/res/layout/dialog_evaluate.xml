@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="@dimen/_10sdp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_dialog"
+    android:padding="@dimen/_12sdp">
+
+    <TextView
+        android:id="@+id/tv_des_permission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/do_you_like_the_app"
+        android:textStyle="bold"
+        android:textColor="#222222"
+        android:textSize="@dimen/_14ssp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:gravity="center"
+        android:text="@string/let_us_know_your_experience_5_stars_is_the_best_on_google_play"
+        android:textColor="#222222"
+        android:textSize="@dimen/_14ssp" />
+
+
+    <RatingBar
+        android:id="@+id/ratingbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:rating="4.5"
+        android:progressBackgroundTint="#616161"
+        android:progressTint="#FFCD1A" />
+
+    <TextView
+        android:id="@+id/tv_goto_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/bg_button_access_permission"
+        android:paddingHorizontal="@dimen/_56sdp"
+        android:layout_gravity="center"
+        android:paddingVertical="@dimen/_8sdp"
+        android:text="@string/rate_us"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_14ssp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_close"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingVertical="@dimen/_8sdp"
+        android:text="@string/cancel"
+        android:textColor="#222222"
+        android:textSize="@dimen/_14ssp"
+        android:textStyle="bold" />
+</LinearLayout>
